@@ -17,14 +17,16 @@ hr {
   overflow: hidden;
   max-height: 82px; 
   transition: max-height 0.3s ease-in;
+  cursor: pointer;
 }
-.expand-box:hover {
+.expand-box:hover, .expand-box.expanded {
   max-height: 500px; 
 }
 h1 {
     color: thistle;
+    transition: color 0.3s ease;
 }
-.expand-box:hover h1 {
+.expand-box:hover h1, .expand-box.expanded h1 {
     color: purple;
 }
 .subtext {
