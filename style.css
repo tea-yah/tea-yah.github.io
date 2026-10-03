@@ -1,0 +1,47 @@
+body {
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    background-color: black;
+    color: white;
+}
+div {
+    border: 1px solid thistle; 
+    border-radius: 5px;
+    padding: 20px;
+    margin: 40px;
+}
+hr {
+    border: none;
+    border-top: 2px dashed white;
+}
+.expand-box {
+  overflow: hidden;
+  max-height: 82px; 
+  transition: max-height 0.3s ease-in;
+}
+.expand-box:hover {
+  max-height: 500px; 
+}
+h1 {
+    color: thistle;
+}
+.subtext {
+    color: purple;
+    font-style: italic;
+}
+a {
+    color: thistle;
+}
+a:visited{
+    color: purple;
+}
+ul {
+  list-style-type: none;
+}
+li::marker {
+  content: "★ ";
+  color: thistle;
+}
+p {
+    font-size: larger;
+    font-weight: lighter;
+}
