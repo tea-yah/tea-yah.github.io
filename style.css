@@ -24,6 +24,9 @@ hr {
 h1 {
     color: thistle;
 }
+.expand-box:hover h1 {
+    color: purple;
+}
 .subtext {
     color: purple;
     font-style: italic;
@@ -40,8 +43,4 @@ ul {
 li::marker {
   content: "★ ";
   color: thistle;
-}
-p {
-    font-size: larger;
-    font-weight: lighter;
 }
